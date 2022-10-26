@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getCateg = async () => {
-    const response = await axios.get('/categ');
+    const response = await axios.get(url+'/categ');
     return await response;
 };
 
